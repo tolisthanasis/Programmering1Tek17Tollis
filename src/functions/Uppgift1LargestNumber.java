@@ -12,7 +12,7 @@ public class Uppgift1LargestNumber {
 		int[] inputs = new int[3];
 		System.out.print("Input the first number:");
 		inputs[0] = scanner.nextInt();
-		System.out.print("Input the Second number:");
+		System.out.print("Input the second number:");
 		inputs[1] = scanner.nextInt();
 		System.out.print("Input the third number:");
 		inputs[2] = scanner.nextInt();
@@ -21,7 +21,7 @@ public class Uppgift1LargestNumber {
 	
 	public static void largestAmongThree(int[] inputs) {
 		int tempVar; 
-		if (inputs[0] < inputs[1]) {
+		if (inputs[0] > inputs[1]) {
 			tempVar = inputs[0];
 		} else {
 			tempVar = inputs[1];

@@ -6,15 +6,13 @@ public class IntroFunctions {
 		
 		function1();
 	}
-
-	private static void function1() {
-		System.out.println("Funktion1! " + function2());
-		
-		
-	}
-
-	private static String function2() {
-		return "Funktion2!";
+	
+	public static void function1() {
+		System.out.println("Function1! " + function2() );
+		System.out.println(function2());
 	}
 	
+	public static String function2() {
+		return "Function2!";
+	}
 }
