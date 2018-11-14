@@ -1,4 +1,4 @@
-package functions;
+   package functions;
 
 import java.util.Scanner;
 
@@ -10,11 +10,11 @@ public class Uppgift1LargestNumber {
 	public static int[] input() {
 		Scanner scanner = new Scanner(System.in);
 		int[] inputs = new int[3];
-		System.out.print("Input the first number:");
+		System.out.print(25);
 		inputs[0] = scanner.nextInt();
-		System.out.print("Input the second number:");
+		System.out.print(39);
 		inputs[1] = scanner.nextInt();
-		System.out.print("Input the third number:");
+		System.out.print(27);
 		inputs[2] = scanner.nextInt();
 		return inputs;
 	}

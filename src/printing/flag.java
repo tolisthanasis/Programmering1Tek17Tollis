@@ -1,6 +1,6 @@
 package printing;
 
-public class Flag {
+public class flag {
 
 	public static void main(String[] args) {
         System.out.println("===========    ==========================");
